@@ -1,0 +1,174 @@
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+
+/* start editing from here */
+a{text-decoration:none;}
+
+img{max-width:100%;}
+/*end reset*/
+body{
+	font-family:"Century Gothic" Geneva Helvetica, sans-serif;
+	background: url('../img/bg.png');
+}
+.wrap{
+	margin:0 auto; 
+	width: 96%;
+}
+h1{
+	color: #fff;
+	font-size: 2em;
+	background:url(../img/logo.png) 4px 8px no-repeat;
+	padding:5px 0px 10px 50px;
+	margin-top:10px;
+}
+.banner{
+	text-align:center;
+	margin-top: 5px;
+}
+.banner img{
+	margin-top: 0px;
+}
+.page{
+	text-align:center;
+	font-family: "Century Gothic";
+}
+.page h2{
+	font-size:2.5em;
+	color: rgb(99, 44, 37);
+	font-weight:bold;
+}
+.footer{
+	font-family: "Century Gothic";
+	position: absolute;
+	right: 30px;
+	bottom:20px;
+}
+.footer p{
+	font-size:1em;
+	color: #603813;
+}
+.footer a{
+	 color: #f9614d;
+}
+.footer a:hover{
+	text-decoration:underline;
+}
+/*media queries*/
+@media all and (max-width:1366px) and (min-width:1280px){
+.wrap{
+	width: 90%;
+}
+.banner{
+	margin-top: 5px;
+}
+}
+@media all and (max-width:1280px) and (min-width:1024px){
+.wrap{
+	width: 90%;
+}
+}	
+@media all and (max-width:1024px) and (min-width:800px){
+.wrap{
+	width: 90%;
+}
+h1{
+	font-size: 2em;
+}
+.banner{
+	margin-top: 0px;
+}
+.page h2{
+	font-size: 2em;
+}
+}
+@media all and (max-width:800px) and (min-width:640px){
+.wrap{
+	width: 90%;
+}
+h1{
+	font-size: 2em;
+}
+.banner{
+	margin-top: 10px;
+}
+.banner img{
+	width: 34%;
+}
+.page h2{
+	font-size:2em;
+}
+}
+@media all and (max-width:640px) and (min-width:480px){
+.wrap{
+	width: 90%;
+}
+h1{
+	font-size: 1.6em;
+}
+.banner{
+	margin-top: 0px;
+}
+.banner img{
+	width: 32%;
+}
+.page h2{
+	font-size:1.6em;
+}
+}
+@media all and (max-width:480px) and (min-width:320px){
+.wrap{
+	width: 90%;
+}
+h1{
+	font-size: 1.4em;
+}
+.banner{
+	margin-top: 0px;
+}
+.banner img{
+	width: 32%;
+}
+.page h2{
+	font-size:1.4em;
+}
+.footer p{
+	font-size: 0.9em;
+}
+}
+@media all and (max-width:320px){
+.wrap{
+	width: 90%;
+}
+h1{
+	font-size: 1.4em;
+}
+.banner{
+	margin-top: 10px;
+}
+.banner img{
+	width:80%;
+}
+.page h2{
+	font-size:1.4em;
+}
+.footer{
+	bottom: 10px;
+}
+.footer p{
+	font-size: 0.9em;
+}
+}
+
+.btn
+{
+	background-color: #e36c0a;
+    color: #fff;
+    padding: 4px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+}
+.marr { margin-top:10px; }
+
+}
+
